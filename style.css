@@ -1,0 +1,248 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+    color: #4a1acf;
+}
+
+nav {
+    background-color: #4a1acf;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: purple;
+}
+
+.left {
+    color: aqua;
+    font-size: 2rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 112px 0;
+}
+
+.firstSection > div {
+    width: 32%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.leftSection .btn-visit,
+.leftSection .btn-download {
+    padding: 8px;
+    background-color: #219cd9;
+    color: #9f2323;
+    border: 3px solid white;
+    border-radius: 19px;
+    font-size: 18px;
+}
+
+.leftSection .btn-visit:hover,
+.leftSection .btn-download:hover {
+    background-color: #2c0de0;
+    color: #00f6ff;    
+    border: 3px solid #4edf7e;    
+}
+
+.rightSection {
+    width: 80%;
+    margin: 70px 0;
+}
+
+.image-dp {
+    width: 229px;
+    margin: 23px;
+    border-radius: 78px;
+}
+
+.purple {
+    color: purple;
+}
+
+#element {
+    color: purple;
+}
+
+main hr {
+    border: 0;
+    background: #4a1acf;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.secondSection,
+.thirdSection {
+    max-width: 80%;
+    margin: auto;
+    height: 77vh;
+}
+
+.secondSection h1,
+.thirdSection h1 {
+    font-size: 1.5rem;
+}
+
+.text-grey {
+    color: #4a1acf;
+}
+
+.secondSection .box,
+.thirdSection .box {
+    background: white;
+    width: 150vh; /* Consider using consistent units like 'px' or 'rem' */
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical,
+.thirdSection .vertical {
+    background: white;
+    height: 93px;
+    width: 1px;
+    margin: 0 100px;
+}
+
+.image-school,
+.image-high-school,
+.image-university,
+.image-dev,
+.image-html,
+.image-css,
+.image-figma {
+    position: relative;
+}
+
+.image-school {
+    width: 53px;
+    top: -51px;
+    left: -25px;
+}
+
+.image-high-school {
+    width: 78px;
+    top: -64px;
+    left: -39px;
+}
+
+.image-university {
+    width: 60px;
+    top: -58px;
+    left: -31px;
+}
+
+.image-dev {
+    width: 86px;
+    top: -42px;
+    left: -34px;
+}
+
+.image-html {
+    width: 56px;
+    top: -48px;
+    left: -27px;
+}
+
+.image-css {
+    width: 85px;
+    top: -57px;
+    left: -42px;
+}
+
+.image-figma {
+    width: 60px;
+    top: -58px;
+    left: -32px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 39px;
+    right: 20px;
+    width: 143px;
+}
+
+.vertical-desc {
+    position: relative;
+    color: #7d68b6;
+    top: 39px;
+    right: 19px;
+    width: 150px;
+    font-size: 9px;
+}
+
+footer {
+    background-color: lavender;
+    padding: 23px 0; /* Added padding to the footer element */
+}
+
+.footer {
+    color: #0030ff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; /* Ensures vertical alignment */
+    flex-wrap: wrap; /* Allows wrapping of items for smaller screens */
+}
+
+.footer div {
+    width: auto;
+}
+
+.footer ul {
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.footer ul li {
+    list-style: none;
+    margin: 5px 0; /* Add some margin for spacing */
+}
+
+.footer ul li a {
+    color: #0030ff;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: purple;
+}
+
+.footer-rights {
+    text-align: center;
+    position: relative;
+    margin-top: 10vh;
+    margin-bottom: -20px;
+    color: rgb(11, 208, 230);
+    background-color: lavender;
+    padding: 10px 0; /* Added padding for better appearance */
+}
+

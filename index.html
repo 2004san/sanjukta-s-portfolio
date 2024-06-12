@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANJUKTA - Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sanjukta's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#services">Experience</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="about">
+            <div class="leftSection">
+                Hello, My name is <span class="purple">Sanjukta Sarkar.</span>
+                <div>I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <!-- <a href="resume.pdf" class="btn-download" target="_blank">Download Resume</a> -->
+                    <a href="https://github.com/2004san" class="btn-visit" target="_blank">Visit Github</a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img class="image-dp" src="DP.jpg" alt="developer" style="width: 290px;">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection" id="education">
+            <span class="text-grey">What I have studied so far</span>
+            <h1>Education</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="school.png" alt="school" class="image-school">
+                    <div class="vertical-title">
+                        Ramkrishna Mission<br> (2009-2013)
+                    </div>
+                    <div class="vertical-desc">
+                        WBCHSE board
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="high-school.png" alt="high school" class="image-high-school">
+                    <div class="vertical-title">
+                     Bolpur Girl's High School   <br> (2014-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        WBCHSE board<br> PCMB
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="university.png" alt="University" class="image-university">
+                    <div class="vertical-title">
+                        Sister Nivedita University<br> (2022-2026)
+                    </div>
+                    <div class="vertical-desc">
+                        Autonomous<br> B.Tech CSE (AIML) 
+                    </div>
+                </div>             
+            </div>
+        </section>
+        <hr>
+        <section class="thirdSection" id="services">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="dev.png" alt="Web Designer" class="image-dev">
+                    <div class="vertical-title">
+                        Web Designer
+                    </div>
+                    <div class="vertical-desc">
+                        Basic layout and icon placement, front page design, landing page.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="html.png" alt="HTML Developer" class="image-html">
+                    <div class="vertical-title">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Intermediate HTML dev, frontend coder, layout/format.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="css.png" alt="CSS Developer" class="image-css">
+                    <div class="vertical-title">
+                        CSS Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Intermediate Cascading Style Sheets dev, gradient, 3D appearance, interactive icons, slidebars designing.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="figma.png" alt="Figma Prototyping" class="image-figma">
+                    <div class="vertical-title">
+                        Figma Prototyping
+                    </div>
+                    <div class="vertical-desc">
+                        Front page/Landing page prototyping, full application preview/presentation. 
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer" id="contact">
+            <div class="footer-first"><h2>Contact Me</h2></div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/sanjukta-sarkar-2a2533255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></li>
+                    <!-- <li><a href="https://x.com/userID" target="_blank">Twitter</a></li> -->
+                    <li><a href="mailto:sanjuktasarkar64@gmail.com"> Email: sanjuktasarkar64@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">All rights reserved &#169; 2024</div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web</i> Developer.', '&amp; a Web Designer.'],
+            typeSpeed: 50,
+            backSpeed: 25,
+            startDelay: 500,
+            backDelay: 500,
+            loop: true,
+            loopCount: Infinity // Infinite looping
+        });
+    </script>
+</body>
+
+</html>
